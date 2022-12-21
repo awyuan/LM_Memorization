@@ -155,9 +155,9 @@ def main():
                 zlib_entropy = len(zlib.compress(bytes(text, 'utf-8')))
 
                 samples.append(text)
-                scores["XL"].append(p1)
-                scores["S"].append(p2)
-                scores["Lower"].append(p_lower)
+                scores["XL"].append(p1.cpu().numpy())
+                scores["S"].append(p2.cpu().numpy())
+                scores["Lower"].append(p_lower.cpu().numpy())
                 scores["zlib"].append(zlib_entropy)
 
             pbar.update(args.batch_size)
