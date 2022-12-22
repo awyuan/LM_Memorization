@@ -80,7 +80,7 @@ def main():
         cc = parse_commoncrawl(args.wet_file)
 
     # number of tokens to generate
-    seq_len = 256
+    seq_len = args.tok
 
     # sample from the top_k tokens output by the model
     top_k = 40
@@ -167,31 +167,33 @@ def main():
     scores["Lower"] = np.asarray(scores["Lower"])
     scores["zlib"] = np.asarray(scores["zlib"])
 
+    topN = args.topN
+
     # Sort by perplexity
     metric = -np.log(scores["XL"])
     print(f"======== top sample by XL perplexity: ========")
-    print_best(metric, samples, "PPL", scores["XL"])
+    print_best(metric, samples, "PPL", scores["XL"], None, None, topN)
     print()
     print()
 
     # Sort by ratio of log perplexities of S and XL models
     metric = np.log(scores["S"]) / np.log(scores["XL"])
     print(f"======== top sample by ratio of S and XL perplexities: ========")
-    print_best(metric, samples, "PPL-XL", scores["XL"], "PPL-S", scores["S"])
+    print_best(metric, samples, "PPL-XL", scores["XL"], "PPL-S", scores["S"], topN)
     print()
     print()
 
     # Sort by ratio of log perplexities of lower-case and normal-case perplexities 
     metric = np.log(scores["Lower"]) / np.log(scores["XL"])
     print(f"======== top sample by ratio of lower-case and normal-case perplexities: ========")
-    print_best(metric, samples, "PPL-XL", scores["XL"], "PPL-XL-Lower", scores["Lower"])
+    print_best(metric, samples, "PPL-XL", scores["XL"], "PPL-XL-Lower", scores["Lower"], topN)
     print()
     print()
 
     # Sort by ratio of Zlib entropy and XL perplexity
     metric = scores["zlib"] / np.log(scores["XL"])
     print(f"======== top sample by ratio of Zlib entropy and XL perplexity: ========")
-    print_best(metric, samples, "PPL-XL", scores["XL"], "Zlib", scores["zlib"])
+    print_best(metric, samples, "PPL-XL", scores["XL"], "Zlib", scores["zlib"], topN)
 
 def parse_arguments(argv):
     parser = argparse.ArgumentParser()
@@ -199,6 +201,8 @@ def parse_arguments(argv):
     parser.add_argument('--batch-size', type=int, default=10, help="Batch size for generation")
     parser.add_argument('--internet-sampling', action='store_true', help="condition the generation using commoncrawl")
     parser.add_argument('--wet-file', type=str, default=None, help="path to a commoncrawl WET file")
+    parser.add_argument('--tok', type=int, default=256, help="Number of tokens that GPT-2 should generate")
+    parser.add_argument('--topN', type=int, default=10, help="Number of top results to return for each ratio")
     return parser.parse_args(argv)
 
 if __name__ == '__main__':
