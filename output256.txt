@@ -1,0 +1,1034 @@
+using device: cuda
+Loading common crawl...
+Loading GPT2...
+======== top sample by XL perplexity: ========
+1: PPL=1.047, , score=-0.046
+
+('June 2016 May 2016 April 2016 March 2016 February 2016 January 2016 December '
+ '2015 November 2015 October 2015 September 2015 August 2015 July 2015 June '
+ '2015 May 2015 April 2015 March 2015 February 2015 January 2015 December 2014 '
+ 'November 2014 October 2014 September 2014 August 2014 July 2014 June 2014 '
+ 'May 2014 April 2014 March 2014 February 2014 January 2014 December 2013 '
+ 'November 2013 October 2013 September 2013 August 2013 July 2013 June 2013 '
+ 'May 2013 April 2013 March 2013 February 2013 January 2013 December 2012 '
+ 'November 2012 October 2012 September 2012 August 2012 July 2012 June 2012 '
+ 'May 2012 April 2012 March 2012 February 2012 January 2012 December 2011 '
+ 'November 2011 October 2011 September 2011 August 2011 July 2011 June 2011 '
+ "Select a category Agriculture Bihar Votes For Its (and India's) Future "
+ "BUDGET 2014 Budget 2015: Modi's Moment of Reckoning Budget 2016: The stories "
+ 'behind the numbers Chart of the Day Climate Change Cover Story Currency '
+ 'Chaos Development Education Elections 2014 Employment Fact Check Governance '
+ "Newsletter Health homepage video Hunger India's Great Challenge: Health & "
+ 'Sanitation IndiaSpend In The News IndiaSpend Interviews Industry '
+ 'Investigations Central State Latest Headlines Latest Reports Making Sense of '
+ "Breaking News Modi's Message: India's States Reply Modi's Report Card Mumbai "
+ 'Special Mumbai Special: The Revival Agenda Opinion – Videos Opinions '
+ "Pollution Poverty Prime Time: India's Grand Challenges Resources Central "
+ 'State Sectors Agriculture Defence Economy & Policy Education Health '
+ 'Infrastructure Snapshots')
+
+
+2: PPL=1.088, , score=-0.084
+
+("Cook Islands Costa Rica Cote D'Ivoire Croatia Cuba Cyprus Czech Republic "
+ 'Denmark Djibouti Dominica Dominican Republic East Timor Ecuador Egypt El '
+ 'Salvador Equatorial Guinea Eritrea Estonia Ethiopia Falkland Islands '
+ '(Malvinas) Faroe Islands Fiji Finland France French Guiana French Polynesia '
+ 'French Southern Territories Gabon Gambia Georgia Germany Ghana Gibraltar '
+ 'Greece Greenland Grenada Guadeloupe Guam Guatemala Guernsey Guinea '
+ 'Guinea-Bissau Guyana Haiti Heard Island and McDonald Islands Holy See '
+ '(Vatican City State) Honduras Hong Kong Hungary Iceland India Indonesia '
+ 'Iran, Islamic Republic of Iraq Ireland Isle of Man Israel Italy Jamaica '
+ "Japan Jersey Jordan Kazakhstan Kenya Kiribati Korea, Democratic People's "
+ "Republic of Korea, Republic of Kuwait Kyrgyzstan Lao People's Democratic "
+ 'Republic Latvia Lebanon Lesotho Liberia Libyan Arab Jamahiriya Liechtenstein '
+ 'Lithuania Luxembourg Macao Macedonia, the former Yugoslav Republic of '
+ 'Madagascar Malawi Malaysia Maldives Mali Malta Marshall Islands Martinique '
+ 'Mauritania Mauritius Mayotte Mexico Micronesia, Federated States of Moldova, '
+ 'Republic of Monaco Mongolia Montenegro Montserrat Morocco Mozambique Myanmar '
+ 'Namibia Nauru Nepal Netherlands Netherlands Antilles New Caledonia New '
+ 'Zealand Nicaragua Niger Nigeria Niue Norfolk Island Northern Mariana Islands '
+ 'Norway Oman Pakistan Palau Palestinian Territory, Occupied Panama Papua New')
+
+
+3: PPL=1.104, , score=-0.099
+
+('7579 7580 7581 7582 7583 7584 7585 7586 7587 7588 7589 7590 7591 7592 7593 '
+ '7594 7595 7596 7597 7598 7599 7600 7601 7602 7603 7604 7605 7606 7607 7608 '
+ '7609 7610 7611 7612 7613 7614 7615 7616 7617 7618 7619 7620 7621 7622 7623 '
+ '7624 7625 7626 7627 7628 7629 7630 7631 7632 7633 7634 7635 7636 7637 7638 '
+ '7639 7640 7641 7642 7643 7644 7645 7646 7647 7648 7649 7650 7651 7652 7653 '
+ '7654 7655 7656 7657 7658 7659 7660 7661 7662 7663 7664 7665 7666 7667 7668 '
+ '7669 7670 7671 7672 7673 7674 7675 7676 7677 7678 7679 7680 7681 7682 7683 '
+ '7684 7685 7686 7687 7688 7689 7690 7691 7692 7693 7694 7695 7696 7697 7698 '
+ '7699 7700 7701 7702 7703 7704 7705 7706 7707 7708 7709 7710 7711')
+
+
+4: PPL=1.207, , score=-0.188
+
+('2012\n'
+ 'August 2012\n'
+ 'July 2012\n'
+ 'June 2012\n'
+ 'May 2012\n'
+ 'March 2012\n'
+ 'February 2012\n'
+ 'January 2012\n'
+ 'June 2011\n'
+ 'May 2011\n'
+ 'April 2011\n'
+ 'March 2011\n'
+ 'February 2011\n'
+ 'January 2011\n'
+ 'December 2010\n'
+ 'November 2010\n'
+ 'October 2010\n'
+ 'September 2010\n'
+ 'August 2010\n'
+ 'July 2010\n'
+ 'June 2010\n'
+ 'May 2010\n'
+ 'April 2010\n'
+ 'March 2010\n'
+ 'February 2010\n'
+ 'January 2010\n'
+ 'December 2009\n'
+ 'November 2009\n'
+ 'October 2009\n'
+ 'September 2009\n'
+ 'August 2009\n'
+ 'July 2009\n'
+ 'June 2009\n'
+ 'May 2009\n'
+ 'April 2009\n'
+ 'March 2009\n'
+ 'February 2009\n'
+ 'January 2009\n'
+ 'December 2008\n'
+ 'November 2008\n'
+ 'October 2008\n'
+ 'September 2008\n'
+ 'August 2008\n'
+ 'July 2008\n'
+ 'June 2008\n'
+ 'May 2008\n'
+ 'April 2008\n'
+ 'March 2008\n'
+ 'February 2008\n'
+ 'January 2008\n'
+ 'December 2007\n'
+ 'November 2007\n'
+ 'October 2007\n'
+ 'September 2007\n'
+ 'August 2007\n'
+ 'July 2007\n'
+ 'June 2007\n'
+ 'May 2007\n'
+ 'April 2007\n'
+ 'March 2007\n'
+ 'February 2007\n'
+ 'January 2007\n'
+ 'December 2006')
+
+
+5: PPL=1.233, , score=-0.209
+
+('Portugal Puerto Rico Qatar Reunion Romania Russian Federation Rwanda Saint '
+ 'Kitts-Nevis Saint Lucia Saint Pierre and Miquelon Saint Vincent and the '
+ 'Grenadines Samoa Saudi Arabia Senegal Serbia Seychelles Sierra Leone '
+ 'Singapore Slovakia Slovenia Solomon Islands Somalia South Africa South '
+ 'Georgia and the South Sandwich Islands Spain Sri Lanka Sudan Suriname '
+ 'Svalbard and Jan Mayen Swaziland Sweden Switzerland Syrian Arab Republic '
+ 'Taiwan Tajikistan Tanzania, United Republic of Thailand Timor-Leste Togo '
+ 'Tokelau Tonga Trinidad and Tobago Tunisia Turkey Turkmenistan Turks and '
+ 'Caicos Islands Tuvalu Uganda Ukraine United Arab Emirates United Kingdom '
+ 'United States United States Minor Outlying Islands Uruguay Uzbekistan '
+ 'Vanuatu Venezuela Viet Nam Virgin Islands, British Virgin Islands, U.S. '
+ 'Wallis and Futuna Western Sahara Yemen Zambia Zimbabwe')
+
+
+6: PPL=1.267, , score=-0.237
+
+('Bahrain Bangladesh Barbados Beirut Belarus Belgium Benin Bermuda Bhutan '
+ 'Bolivia Bosnia and Herzegovina Botswana Brazil Brunei Bulgaria Burkina Faso '
+ 'Burundi Cambodia Cameroon Cape Verde Cayman Islands Central African Republic '
+ 'Chad Chile China Christmas Island Cocos (Keeling) Islands Colombia Comoros '
+ 'Congo, Democratic Republic of the Congo, Republic of the Costa Rica Côte '
+ "d'Ivoire Croatia Cuba Curaçao Cyprus Czech Republic Denmark Djibouti "
+ 'Dominica Dominican Republic East Timor Ecuador Egypt El Salvador Equatorial '
+ 'Guinea Eritrea Estonia Ethiopia Faroe Islands Fiji Finland France French '
+ 'Polynesia Gabon Gambia Georgia Germany Ghana Gibraltar Greece Greenland '
+ 'Grenada Guadeloupe Guam Guatemala Guinea Guinea-Bissau Guyana Haiti Holy See '
+ '(Vatican City State) Honduras Hong Kong Hungary Iceland India Indonesia Iran '
+ 'Iraq Ireland Israel Italy Jamaica Japan Jordan Kazakhstan Kenya Kiribati '
+ 'North Korea South Kuwait Kyrgyzstan Laos Latvia Lebanon Lesotho Liberia '
+ 'Libya Liechtenstein Lithuania Luxembourg Macedonia Madagascar Malawi '
+ 'Malaysia Maldives Mali Malta Marshall Islands Mauritania Mauritius Mexico '
+ 'Micronesia Moldova Monaco Mongolia Montenegro Morocco Mozambique Myanmar '
+ 'Namibia Nauru Nepal Netherlands New Zealand Nicaragua Niger Nigeria Northern '
+ 'Mariana Islands Norway Oman Pakistan Palau Palestine, State of Panama Papua '
+ 'New Guinea Paraguay Peru Philippines Pitcairn Poland Portugal')
+
+
+7: PPL=1.295, , score=-0.258
+
+('Ultra Business Cards Ultra Postcards Standard Envelopes Standard Envelopes '
+ 'Standard Envelopes Standard Envelopes Standard Envelopes Standard Envelopes '
+ 'Standard Envelopes Standard Envelopes Standard Envelopes Standard Envelopes '
+ 'Standard Envelopes Standard Envelopes Standard Envelopes Standard Envelopes '
+ 'Standard Envelopes Standard Envelopes Standard Envelopes Standard Envelopes '
+ 'Standard Envelopes Standard Envelopes Standard Envelopes Standard Envelopes '
+ 'Standard Envelopes Standard Envelopes Standard Envelopes Standard Envelopes '
+ 'Standard Envelopes Standard Envelopes Standard Envelopes Standard Envelopes '
+ 'Standard Envelopes Standard Envelopes Standard Envelopes Standard Envelopes '
+ 'Standard Envelopes Standard Envelopes Standard Envelopes Standard Envelopes '
+ 'Standard Envelopes Standard Envelopes Standard Envelopes Standard Envelopes '
+ 'Standard Envelopes Standard Envelopes Standard Envelopes Standard Envelopes '
+ 'Standard Envelopes Standard Envelopes Standard Envelopes Standard Envelopes '
+ 'Standard Envelopes Standard Envelopes Standard Envelopes Standard Envelopes '
+ 'Standard Envelopes Standard Envelopes Standard Envelopes Standard Envelopes '
+ 'Standard Envelopes Standard Envelopes Standard Envelopes Standard Envelopes '
+ 'Standard Envelopes Standard Envelopes Standard Envelopes')
+
+
+8: PPL=1.323, , score=-0.280
+
+('the remote PPP\n'
+ '          \xa0                                                                                         \n'
+ '                                                                                                                                                           \n'
+ '     ')
+
+
+9: PPL=1.373, , score=-0.317
+
+('saw / block saw. cnc bridge saw. sander. sander. sander. sander. sander. '
+ 'sander. sander. sander. sander. sander. sander. sander. sander. sander. '
+ 'sander. sander. sander. sander. sander. sander. sander. sander. sander. '
+ 'sander. sander. sander. sander. sander. sander. sander. sander. sander. '
+ 'sander. sander. sander. sander. sander. sander. sander. sander. sander. '
+ 'sander. sander. sander. sander. sander. sander. sander. sander. sander. '
+ 'sander. sander. sander. sander. sander. sander. sander. sander. sander. '
+ 'sander. sander. sander. sander. sander. sander. sander. sander. sander. '
+ 'sander. sander. sander. sander. sander. sander. sander. sander. sander. '
+ 'sander. sander. sander. sander. sander. sander. sander. sander. s')
+
+
+10: PPL=1.426, , score=-0.355
+
+('WI Indianapolis, IN Nashville, TN Orlando, FL Philadelphia, PA Phoenix, AZ '
+ 'Portland, ME Portland, OR Providence, RI Raleigh-Durham, NC Raleigh-Orange, '
+ 'NC Richmond, VA Rochester, NY Sacramento, CA Salt Lake City, UT San Antonio, '
+ 'TX San Diego, CA San Francisco, CA San Jose, CA Seattle, WA Washington, DC '
+ 'Wilmington, DE\n'
+ '\n'
+ 'Country: US - Select -- Afghanistan Albania Algeria American Samoa Andorra '
+ 'Angola Anguilla Antarctica Antigua and Barbuda Argentina Armenia Aruba '
+ 'Australia Austria Azerbaijan Bahamas Bahrain Bangladesh Barbados Belarus '
+ 'Belgium Belize Benin Bermuda Bhutan Bolivia Bosnia and Herzegovina Botswana '
+ 'Bouvet Island Brazil British Indian Ocean Territory British Virgin Islands '
+ 'Brunei Bulgaria Burkina Faso Burundi Cambodia Cameroon Canada Cape Verde '
+ 'Cayman Islands Central African Republic Chad Chile China Christmas Island '
+ 'Cocos [Keeling] Islands Colombia Comoros Congo - Brazzaville Congo - '
+ 'Kinshasa Cook Islands Costa Rica Croatia Cuba Cyprus Czech Republic Denmark '
+ 'Djibouti Dominica Dominican Republic East Timor Ecuador Egypt El Salvador '
+ 'Equatorial Guinea Eritrea Estonia Ethiopia Falkland Islands Faroe Islands '
+ 'Fiji Finland France French Guiana French Polynesia French Southern '
+ 'Territories Gabon Gambia Georgia Germany Ghana Gibraltar Greece Greenland '
+ 'Grenada Guadeloupe Guam Guatemala Guinea Guinea-Bissau')
+
+
+
+
+======== top sample by ratio of S and XL perplexities: ========
+1: PPL-XL=2.265, PPL-S=31.826, score=4.232, 
+
+('number EW053908676FR\n'
+ 'Tracking Information Register now for our free OneVote public service or '
+ 'GAITS Professional trial account and you can begin tracking this and other '
+ 'legislation, all driven by the real-time data of the LegiScan API. Providing '
+ 'tools allowing you to research pending legislation, stay informed with email '
+ 'alerts, content feeds, and share dynamic reports. Use our new PolitiCorps to '
+ 'join with friends and collegaues to monitor & discuss bills through the '
+ 'process.\n'
+ '\n'
+ '\n'
+ 'Monitor Legislation or view this same bill number from multiple sessions or '
+ 'take advantage of our national legislative search.\n'
+ '\n'
+ 'Title\n'
+ '\n'
+ "Voters' Rights Act Reauthorization Act of 2018; reauthorizing voter "
+ 'registration forms and other information\n'
+ '\n'
+ 'Sponsors\n'
+ '\n'
+ 'History\n'
+ '\n'
+ 'Date Chamber Action 2017-05-15 Senate Committee of the Whole Referred to the '
+ 'Committee on Judiciary 2017-05-14 Senate Senate Filed 2017-05-11 Senate '
+ 'Senate Read First Time 2017-05-11 Senate Senate Read Second Time 2017-05-10 '
+ 'Senate Senate Filed\n'
+ '\n'
+ 'Subjects\n'
+ '\n'
+ 'Texas State Sources\n'
+ '\n'
+ 'Type Source Summary '
+ 'http://www.legis.state.tx.us/BillLookup/BillLookup.aspx?LegSess=Bills&Bill=H3599 '
+ 'HB 3599 An')
+
+
+2: PPL-XL=2.677, PPL-S=45.417, score=3.875, 
+
+('number EW053965364FR\n'
+ 'Tracking Information Register now for our free OneVote public service or '
+ 'GAITS Professional trial account and you can begin tracking this and other '
+ 'legislation, all driven by the real-time data of the LegiScan API. Providing '
+ 'tools allowing you to research pending legislation, stay informed with email '
+ 'alerts, content feeds, and share dynamic reports. Use our new PolitiCorps to '
+ 'join with friends and collegaues to monitor & discuss bills through the '
+ 'process.\n'
+ '\n'
+ '\n'
+ 'Monitor Legislation or view this same bill number from multiple sessions or '
+ 'take advantage of our national legislative search.\n'
+ '\n'
+ 'Title\n'
+ '\n'
+ 'Relating to the development, regulation, operation, maintenance, and '
+ 'conservation of motor and other vehicles.\n'
+ '\n'
+ 'Sponsors\n'
+ '\n'
+ 'History\n'
+ '\n'
+ 'Date Chamber Action 2016-11-17 Assembly Died in\n'
+ '\n'
+ 'Same As/Similar To\n'
+ '\n'
+ '\n'
+ 'Same As/Similar To SB2368 by Lee, Cynthia H. 2017-03-30 Assembly Prefiled '
+ '2017-06-28 Senate Prefiled 2017-06-28 Assembly Prefiled')
+
+
+3: PPL-XL=2.465, PPL-S=14.413, score=2.957, 
+
+('EE567485667BD\n'
+ 'Trace EE567485667BD Feb 26 19:34:23 battlestation kernel: tsc: Refined TSC '
+ 'clocksource calibration: 3999.985 MHz Feb 26 19:34:23 battlestation kernel: '
+ 'FUJITSU Extended Socket Network Device Driver - v1.06 [ 694.958] (II) '
+ 'fglrx(0): EDID vendor "SEC", prod id 13903 Feb 26 19:34:23 battlestation '
+ 'kernel: [Firmware Bug]: Driver btusb has been registered by the Ubuntu '
+ 'firmware team as part of the PCI-VENEON wireless driver. This driver '
+ 'supports the IEEE 802.11 Wireless AC 7260 specification. Feb 26 19:34:23 '
+ 'battlestation kernel: fglrx(0): Printing DDC gathered Modelines: Feb 26 '
+ '19:34:23 battlestation kernel: fglrx(0): Modeline "1366x768"x60.0 68.32 1366 '
+ '1414 1496 1772 768 771 777 695 +hsync +vsync (57.7 kHz eP) Feb 26 19:34:23 '
+ 'battlestation kernel: fglrx(0): Modeline "1366x768"x56')
+
+
+4: PPL-XL=1.207, PPL-S=1.744, score=2.952, 
+
+('2012\n'
+ 'August 2012\n'
+ 'July 2012\n'
+ 'June 2012\n'
+ 'May 2012\n'
+ 'March 2012\n'
+ 'February 2012\n'
+ 'January 2012\n'
+ 'June 2011\n'
+ 'May 2011\n'
+ 'April 2011\n'
+ 'March 2011\n'
+ 'February 2011\n'
+ 'January 2011\n'
+ 'December 2010\n'
+ 'November 2010\n'
+ 'October 2010\n'
+ 'September 2010\n'
+ 'August 2010\n'
+ 'July 2010\n'
+ 'June 2010\n'
+ 'May 2010\n'
+ 'April 2010\n'
+ 'March 2010\n'
+ 'February 2010\n'
+ 'January 2010\n'
+ 'December 2009\n'
+ 'November 2009\n'
+ 'October 2009\n'
+ 'September 2009\n'
+ 'August 2009\n'
+ 'July 2009\n'
+ 'June 2009\n'
+ 'May 2009\n'
+ 'April 2009\n'
+ 'March 2009\n'
+ 'February 2009\n'
+ 'January 2009\n'
+ 'December 2008\n'
+ 'November 2008\n'
+ 'October 2008\n'
+ 'September 2008\n'
+ 'August 2008\n'
+ 'July 2008\n'
+ 'June 2008\n'
+ 'May 2008\n'
+ 'April 2008\n'
+ 'March 2008\n'
+ 'February 2008\n'
+ 'January 2008\n'
+ 'December 2007\n'
+ 'November 2007\n'
+ 'October 2007\n'
+ 'September 2007\n'
+ 'August 2007\n'
+ 'July 2007\n'
+ 'June 2007\n'
+ 'May 2007\n'
+ 'April 2007\n'
+ 'March 2007\n'
+ 'February 2007\n'
+ 'January 2007\n'
+ 'December 2006')
+
+
+5: PPL-XL=2.096, PPL-S=6.160, score=2.456, 
+
+('EE567475418BD\n'
+ 'Trace EE567475418BD Jul 27, 2018 18:28:55.821 [9568] DEBUG - Client '
+ '[vt5p9qwsxlhj] reporting timeline state playing, progress of 0/243027ms for '
+ 'guid=, ratingKey=120014 url=, key=/library/metadata/120014, containerKey=, '
+ 'metadataId=120014 Jul 27, 2018 18:28:55.821 [6620] DEBUG - Play progress on '
+ "120014 'Souvlaki Space Station' - got played 2431 ms by account 1! Jul 27, "
+ '2018 18:28:56.087 [6620] WARN - [Transcoder] [hevc @ 00c08720] PPS id out of '
+ 'range: 0 Jul 27, 2018 18:28:56.087 [10168] DEBUG - Completed: '
+ '[::ffff:127.0.0.1:52761] 200 GET /library/metadata/120015 (11 live) GZIP '
+ '11ms 1392 bytes Jul 27, 2018 18:28:56.094 [10168] DEBUG - Auth: We found '
+ 'auth token (xxxxxxxxxxxxxxxxxxxx), enabling token-based authentication. Jul '
+ '27, 2018')
+
+
+6: PPL-XL=1.104, PPL-S=1.262, score=2.358, 
+
+('7579 7580 7581 7582 7583 7584 7585 7586 7587 7588 7589 7590 7591 7592 7593 '
+ '7594 7595 7596 7597 7598 7599 7600 7601 7602 7603 7604 7605 7606 7607 7608 '
+ '7609 7610 7611 7612 7613 7614 7615 7616 7617 7618 7619 7620 7621 7622 7623 '
+ '7624 7625 7626 7627 7628 7629 7630 7631 7632 7633 7634 7635 7636 7637 7638 '
+ '7639 7640 7641 7642 7643 7644 7645 7646 7647 7648 7649 7650 7651 7652 7653 '
+ '7654 7655 7656 7657 7658 7659 7660 7661 7662 7663 7664 7665 7666 7667 7668 '
+ '7669 7670 7671 7672 7673 7674 7675 7676 7677 7678 7679 7680 7681 7682 7683 '
+ '7684 7685 7686 7687 7688 7689 7690 7691 7692 7693 7694 7695 7696 7697 7698 '
+ '7699 7700 7701 7702 7703 7704 7705 7706 7707 7708 7709 7710 7711')
+
+
+7: PPL-XL=2.972, PPL-S=11.760, score=2.263, 
+
+(')\n'
+ 'You are commenting using your Twitter account. To post a comment, you must '
+ 'first register with Twitter.\n'
+ 'You are commenting using your Facebook account. To post a comment, you must '
+ 'first create a Facebook account.')
+
+
+8: PPL-XL=2.235, PPL-S=5.546, score=2.130, 
+
+('Cantilever Racks\n'
+ 'Cantilever Racks\n'
+ '\n'
+ 'Cantilever Skirt\n'
+ '\n'
+ 'Clankier Ties\n'
+ '\n'
+ 'Clankier Saties\n'
+ '\n'
+ 'Clankier Stye\n'
+ '\n'
+ 'Clankier Tiese\n'
+ '\n'
+ 'Clankier Stye\n'
+ '\n'
+ 'Clankier Tieest\n'
+ '\n'
+ 'Clankier Stye\n'
+ '\n'
+ 'Clankier Tiese\n'
+ '\n'
+ 'Clankier Stye\n'
+ '\n'
+ 'Cruiser Tie\n'
+ '\n'
+ 'Cruiser Stye\n'
+ '\n'
+ 'Reacts Rile\n'
+ '\n'
+ 'Reacts Lire\n'
+ '\n'
+ 'Reacts Rite\n'
+ '\n'
+ 'Reacts Tier\n'
+ '\n'
+ 'Reacts Tire\n'
+ '\n'
+ 'Reacts Tieri\n'
+ '\n'
+ 'Dealer Riles\n'
+ '\n'
+ 'Dealer Slier\n'
+ '\n'
+ 'Dealer Lies\n'
+ '\n'
+ 'Dealer Tiles\n'
+ '\n'
+ 'Dealer Stile\n'
+ '\n'
+ 'Dealers Rile\n'
+ '\n'
+ 'Dealers Lire\n'
+ '\n'
+ 'Dealers Rite\n'
+ '\n'
+ 'Dealers Tier\n'
+ '\n'
+ 'Dealers Tire\n'
+ '\n'
+ 'Dealers Tieri\n'
+ '\n'
+ 'Cretin Steely\n'
+ '\n'
+ 'Cretin Selety\n'
+ '\n'
+ 'Cretin Leasety\n'
+ '\n'
+ 'Dealers Least\n'
+ '\n'
+ 'Dealers Easts\n'
+ '\n'
+ 'Dealers Steely\n'
+ '\n'
+ 'Dealers Selety\n'
+ '\n'
+ 'Dealer Leasety\n'
+ '\n'
+ 'Arcs Tricky\n'
+ '\n'
+ 'Crates Tricky\n'
+ '\n'
+ 'Crates Tricky\n')
+
+
+9: PPL-XL=1.047, PPL-S=1.103, score=2.113, 
+
+('June 2016 May 2016 April 2016 March 2016 February 2016 January 2016 December '
+ '2015 November 2015 October 2015 September 2015 August 2015 July 2015 June '
+ '2015 May 2015 April 2015 March 2015 February 2015 January 2015 December 2014 '
+ 'November 2014 October 2014 September 2014 August 2014 July 2014 June 2014 '
+ 'May 2014 April 2014 March 2014 February 2014 January 2014 December 2013 '
+ 'November 2013 October 2013 September 2013 August 2013 July 2013 June 2013 '
+ 'May 2013 April 2013 March 2013 February 2013 January 2013 December 2012 '
+ 'November 2012 October 2012 September 2012 August 2012 July 2012 June 2012 '
+ 'May 2012 April 2012 March 2012 February 2012 January 2012 December 2011 '
+ 'November 2011 October 2011 September 2011 August 2011 July 2011 June 2011 '
+ "Select a category Agriculture Bihar Votes For Its (and India's) Future "
+ "BUDGET 2014 Budget 2015: Modi's Moment of Reckoning Budget 2016: The stories "
+ 'behind the numbers Chart of the Day Climate Change Cover Story Currency '
+ 'Chaos Development Education Elections 2014 Employment Fact Check Governance '
+ "Newsletter Health homepage video Hunger India's Great Challenge: Health & "
+ 'Sanitation IndiaSpend In The News IndiaSpend Interviews Industry '
+ 'Investigations Central State Latest Headlines Latest Reports Making Sense of '
+ "Breaking News Modi's Message: India's States Reply Modi's Report Card Mumbai "
+ 'Special Mumbai Special: The Revival Agenda Opinion – Videos Opinions '
+ "Pollution Poverty Prime Time: India's Grand Challenges Resources Central "
+ 'State Sectors Agriculture Defence Economy & Policy Education Health '
+ 'Infrastructure Snapshots')
+
+
+10: PPL-XL=2.781, PPL-S=8.666, score=2.111, 
+
+('data-mce-fragment=\\"1\\" title=\\"favicon.ico\\">favicon.ico</a></p><code> '
+ '<i class=\\"mce-no-icons '
+ 'mce-no-icon-data-node-id=\\"5343ceaa-5e73-4555-a7b3-e0bb92a8a07b\\" '
+ 'data-mce-id=\\"5343ceaa-5e73-4555-a7b3-e0bb92a8a07b\\" data-type=\\"image\\" '
+ 'data-title=\\"FB Login\\" data-tooltip-id=\\"\\" data-course=\\"\\" '
+ 'data-course-id=\\"\\" \\ " tagline=\\"\\" '
+ 'data-course-title=\\"\\"\\"></i></code><span class=\\"cui-c-txt-gray-dk\\" '
+ 'lang=\\"EN-US\\" xml:lang=\\"EN-US\\" xml:lang=\\"EN-US\\" /> </span><span '
+ 'class=\\"cui-promotions\\"> <span class=\\"cui-image-promotions\\"> <span '
+ 'class=\\"cui-image-preview-img\\" alt=\\"cui/image/fb_preview.png\\" '
+ 'src=\\"//e.infogr.am')
+
+
+
+
+======== top sample by ratio of lower-case and normal-case perplexities: ========
+1: PPL-XL=1.047, PPL-XL-Lower=7.676, score=43.923, 
+
+('June 2016 May 2016 April 2016 March 2016 February 2016 January 2016 December '
+ '2015 November 2015 October 2015 September 2015 August 2015 July 2015 June '
+ '2015 May 2015 April 2015 March 2015 February 2015 January 2015 December 2014 '
+ 'November 2014 October 2014 September 2014 August 2014 July 2014 June 2014 '
+ 'May 2014 April 2014 March 2014 February 2014 January 2014 December 2013 '
+ 'November 2013 October 2013 September 2013 August 2013 July 2013 June 2013 '
+ 'May 2013 April 2013 March 2013 February 2013 January 2013 December 2012 '
+ 'November 2012 October 2012 September 2012 August 2012 July 2012 June 2012 '
+ 'May 2012 April 2012 March 2012 February 2012 January 2012 December 2011 '
+ 'November 2011 October 2011 September 2011 August 2011 July 2011 June 2011 '
+ "Select a category Agriculture Bihar Votes For Its (and India's) Future "
+ "BUDGET 2014 Budget 2015: Modi's Moment of Reckoning Budget 2016: The stories "
+ 'behind the numbers Chart of the Day Climate Change Cover Story Currency '
+ 'Chaos Development Education Elections 2014 Employment Fact Check Governance '
+ "Newsletter Health homepage video Hunger India's Great Challenge: Health & "
+ 'Sanitation IndiaSpend In The News IndiaSpend Interviews Industry '
+ 'Investigations Central State Latest Headlines Latest Reports Making Sense of '
+ "Breaking News Modi's Message: India's States Reply Modi's Report Card Mumbai "
+ 'Special Mumbai Special: The Revival Agenda Opinion – Videos Opinions '
+ "Pollution Poverty Prime Time: India's Grand Challenges Resources Central "
+ 'State Sectors Agriculture Defence Economy & Policy Education Health '
+ 'Infrastructure Snapshots')
+
+
+2: PPL-XL=1.088, PPL-XL-Lower=3.369, score=14.458, 
+
+("Cook Islands Costa Rica Cote D'Ivoire Croatia Cuba Cyprus Czech Republic "
+ 'Denmark Djibouti Dominica Dominican Republic East Timor Ecuador Egypt El '
+ 'Salvador Equatorial Guinea Eritrea Estonia Ethiopia Falkland Islands '
+ '(Malvinas) Faroe Islands Fiji Finland France French Guiana French Polynesia '
+ 'French Southern Territories Gabon Gambia Georgia Germany Ghana Gibraltar '
+ 'Greece Greenland Grenada Guadeloupe Guam Guatemala Guernsey Guinea '
+ 'Guinea-Bissau Guyana Haiti Heard Island and McDonald Islands Holy See '
+ '(Vatican City State) Honduras Hong Kong Hungary Iceland India Indonesia '
+ 'Iran, Islamic Republic of Iraq Ireland Isle of Man Israel Italy Jamaica '
+ "Japan Jersey Jordan Kazakhstan Kenya Kiribati Korea, Democratic People's "
+ "Republic of Korea, Republic of Kuwait Kyrgyzstan Lao People's Democratic "
+ 'Republic Latvia Lebanon Lesotho Liberia Libyan Arab Jamahiriya Liechtenstein '
+ 'Lithuania Luxembourg Macao Macedonia, the former Yugoslav Republic of '
+ 'Madagascar Malawi Malaysia Maldives Mali Malta Marshall Islands Martinique '
+ 'Mauritania Mauritius Mayotte Mexico Micronesia, Federated States of Moldova, '
+ 'Republic of Monaco Mongolia Montenegro Montserrat Morocco Mozambique Myanmar '
+ 'Namibia Nauru Nepal Netherlands Netherlands Antilles New Caledonia New '
+ 'Zealand Nicaragua Niger Nigeria Niue Norfolk Island Northern Mariana Islands '
+ 'Norway Oman Pakistan Palau Palestinian Territory, Occupied Panama Papua New')
+
+
+3: PPL-XL=1.233, PPL-XL-Lower=4.575, score=7.261, 
+
+('Portugal Puerto Rico Qatar Reunion Romania Russian Federation Rwanda Saint '
+ 'Kitts-Nevis Saint Lucia Saint Pierre and Miquelon Saint Vincent and the '
+ 'Grenadines Samoa Saudi Arabia Senegal Serbia Seychelles Sierra Leone '
+ 'Singapore Slovakia Slovenia Solomon Islands Somalia South Africa South '
+ 'Georgia and the South Sandwich Islands Spain Sri Lanka Sudan Suriname '
+ 'Svalbard and Jan Mayen Swaziland Sweden Switzerland Syrian Arab Republic '
+ 'Taiwan Tajikistan Tanzania, United Republic of Thailand Timor-Leste Togo '
+ 'Tokelau Tonga Trinidad and Tobago Tunisia Turkey Turkmenistan Turks and '
+ 'Caicos Islands Tuvalu Uganda Ukraine United Arab Emirates United Kingdom '
+ 'United States United States Minor Outlying Islands Uruguay Uzbekistan '
+ 'Vanuatu Venezuela Viet Nam Virgin Islands, British Virgin Islands, U.S. '
+ 'Wallis and Futuna Western Sahara Yemen Zambia Zimbabwe')
+
+
+4: PPL-XL=1.267, PPL-XL-Lower=3.058, score=4.725, 
+
+('Bahrain Bangladesh Barbados Beirut Belarus Belgium Benin Bermuda Bhutan '
+ 'Bolivia Bosnia and Herzegovina Botswana Brazil Brunei Bulgaria Burkina Faso '
+ 'Burundi Cambodia Cameroon Cape Verde Cayman Islands Central African Republic '
+ 'Chad Chile China Christmas Island Cocos (Keeling) Islands Colombia Comoros '
+ 'Congo, Democratic Republic of the Congo, Republic of the Costa Rica Côte '
+ "d'Ivoire Croatia Cuba Curaçao Cyprus Czech Republic Denmark Djibouti "
+ 'Dominica Dominican Republic East Timor Ecuador Egypt El Salvador Equatorial '
+ 'Guinea Eritrea Estonia Ethiopia Faroe Islands Fiji Finland France French '
+ 'Polynesia Gabon Gambia Georgia Germany Ghana Gibraltar Greece Greenland '
+ 'Grenada Guadeloupe Guam Guatemala Guinea Guinea-Bissau Guyana Haiti Holy See '
+ '(Vatican City State) Honduras Hong Kong Hungary Iceland India Indonesia Iran '
+ 'Iraq Ireland Israel Italy Jamaica Japan Jordan Kazakhstan Kenya Kiribati '
+ 'North Korea South Kuwait Kyrgyzstan Laos Latvia Lebanon Lesotho Liberia '
+ 'Libya Liechtenstein Lithuania Luxembourg Macedonia Madagascar Malawi '
+ 'Malaysia Maldives Mali Malta Marshall Islands Mauritania Mauritius Mexico '
+ 'Micronesia Moldova Monaco Mongolia Montenegro Morocco Mozambique Myanmar '
+ 'Namibia Nauru Nepal Netherlands New Zealand Nicaragua Niger Nigeria Northern '
+ 'Mariana Islands Norway Oman Pakistan Palau Palestine, State of Panama Papua '
+ 'New Guinea Paraguay Peru Philippines Pitcairn Poland Portugal')
+
+
+5: PPL-XL=1.448, PPL-XL-Lower=4.894, score=4.287, 
+
+('Peru Philippines Pitcairn Poland Portugal Puerto Rico Qatar Republic of '
+ 'Korea Republic of Moldova Republic of Montenegro Republic of Peru Republic '
+ 'of Poland Republic of Puerto Rico Republic of Romania Romania Russian '
+ 'Federation Serbia Serbia and Montenegro Slovakia Slovenia South Africa South '
+ 'Korea South Sudan Spain Sri Lanka St. Barthelemy St. Helena St. Martin '
+ '(French part) St. Pierre and Miquelon St. Vincent and the Grenadines Sudan '
+ 'Suriname Svalbard and Jan Mayen Islands Swaziland Sweden Switzerland Syrian '
+ 'Arab Republic Taiwan Tajikistan Tanzania Thailand Togo Tokelau Tonga '
+ 'Trinidad and Tobago Tunisia Turkey Turkmenistan Turks and Caicos Islands '
+ 'Tuvalu U.S. Minor Outlying Islands U.S. Virgin Islands Uganda Ukraine United '
+ 'Arab Emirates United Kingdom United States Unknown or Invalid Region Unknown '
+ 'or Invalid State / Province United States Unknown or Invalid Zip / Postal '
+ 'Code Afghanistan Albania Algeria American Samoa Andorra Angola Anguilla '
+ 'Antarctica Antigua and Barbuda Argentina Armenia Aruba Australia Austria '
+ 'Azerbaijan Bahamas Bahrain Bangladesh Barbados Belarus Belgium Belize Benin '
+ 'Bermuda Bhutan Bolivia, Plurinational State of Bonaire, Sint Eustatius and '
+ 'Saba Bosnia and Herzegovina Botswana Bouvet Island Brazil British Indian '
+ 'Ocean Territory Brunei Darussalam Bulgaria Burkina Faso Bur')
+
+
+6: PPL-XL=1.462, PPL-XL-Lower=4.548, score=3.986, 
+
+('Islands Central African Republic Chad Chile China Hong Kong Georgia Germany '
+ 'Ghana Gibraltar Greece Greenland Grenada India Guatemala Guinea Guyana Haiti '
+ 'Hawaii Honduras Hungary Indonesia Ireland Israel Italy Ivory Coast Japan '
+ 'Jordan Kazakhstan Kenya Kosovo Kuwait Kyrgyzstan Laos Latvia Lebanon Lesotho '
+ 'Liberia Libya Liechtenstein Lithuania Luxembourg Macao Macedonia Madagascar '
+ 'Malawi Malaysia Maldives Mali Malta Marshall Islands Mexico Micronesia '
+ 'Moldova Monaco Mongolia Montenegro Morocco Mozambique Myanmar Namibia Nauru '
+ 'Nepal Netherlands New Zealand Nicaragua Niger Nigeria Norway Oman Pakistan '
+ 'Palau Panama Papua New Guinea Philippines Poland Portugal Qatar Romania '
+ 'Russia Rwanda Saint Kitts and Nevis Saint Lucia Saint Vincent and the '
+ 'Grenadines Samoa San Marino Sao Tome and Principe Saudi Arabia Scotland '
+ 'Senegal Serbia and Montenegro Seychelles Sierra Leone Singapore Slovakia '
+ 'Slovenia Slovak Republic Solomon Islands Somalia South Africa Spain Sri '
+ 'Lanka Sudan Suriname Swaziland Sweden Switzerland Syria Tahiti Taiwan '
+ 'Tajikistan Tanzania Thailand The Bahamas The Gambia Tibet Togo Tonga '
+ 'Trinidad and Tobago Tunisia Turkey Turks and Caicos Islands Tuvalu Uganda '
+ 'Ukraine United Arab Emirates United Kingdom United States of America Uruguay '
+ 'Uzbekistan Vanuatu Vatican City Venezuela Vietnam Virgin Islands Western '
+ 'Sahara Yemen Yugoslavia Zambia Zimbabwe Last name:\n'
+ '\n'
+ '\n'
+ 'Division:\n'
+ '\n'
+ '\n'
+ 'City:\n'
+ '\n'
+ 'Products:\n'
+ '\n'
+ 'Central Asia & Caucasus Business Weekly\n'
+ '\n'
+ 'Central Asia')
+
+
+7: PPL-XL=1.426, PPL-XL-Lower=3.694, score=3.683, 
+
+('WI Indianapolis, IN Nashville, TN Orlando, FL Philadelphia, PA Phoenix, AZ '
+ 'Portland, ME Portland, OR Providence, RI Raleigh-Durham, NC Raleigh-Orange, '
+ 'NC Richmond, VA Rochester, NY Sacramento, CA Salt Lake City, UT San Antonio, '
+ 'TX San Diego, CA San Francisco, CA San Jose, CA Seattle, WA Washington, DC '
+ 'Wilmington, DE\n'
+ '\n'
+ 'Country: US - Select -- Afghanistan Albania Algeria American Samoa Andorra '
+ 'Angola Anguilla Antarctica Antigua and Barbuda Argentina Armenia Aruba '
+ 'Australia Austria Azerbaijan Bahamas Bahrain Bangladesh Barbados Belarus '
+ 'Belgium Belize Benin Bermuda Bhutan Bolivia Bosnia and Herzegovina Botswana '
+ 'Bouvet Island Brazil British Indian Ocean Territory British Virgin Islands '
+ 'Brunei Bulgaria Burkina Faso Burundi Cambodia Cameroon Canada Cape Verde '
+ 'Cayman Islands Central African Republic Chad Chile China Christmas Island '
+ 'Cocos [Keeling] Islands Colombia Comoros Congo - Brazzaville Congo - '
+ 'Kinshasa Cook Islands Costa Rica Croatia Cuba Cyprus Czech Republic Denmark '
+ 'Djibouti Dominica Dominican Republic East Timor Ecuador Egypt El Salvador '
+ 'Equatorial Guinea Eritrea Estonia Ethiopia Falkland Islands Faroe Islands '
+ 'Fiji Finland France French Guiana French Polynesia French Southern '
+ 'Territories Gabon Gambia Georgia Germany Ghana Gibraltar Greece Greenland '
+ 'Grenada Guadeloupe Guam Guatemala Guinea Guinea-Bissau')
+
+
+8: PPL-XL=3.147, PPL-XL-Lower=61.060, score=3.586, 
+
+('the former Yugoslav Republic '
+ 'ofMadagascarMalawiMalaysiaMexicoMaliMaltaMauritiusMoldovaMoroccoMozambiqueMontenegroMozambiqueMorrocoMozambiqueMozambique, '
+ 'UnitedRepublic ofMyanmarNamibiaNauruNepal n.Africa(includes East '
+ 'N.Africa)NetherlandsAntarctica(includes Antarctic n.Africa)Netherlands '
+ 'AntillesNew CaledoniaNew ZealandNorwayOmanPakistanPalestinian '
+ 'TerritoriesPalauPalestinePalestine, State ofPanamaParaguayPapua New '
+ 'GuineaPeruPeru, State ofPeru, State ofPhilippines(includes the '
+ 'Philippines)PolynesiaPolandPortugalPuerto RicoQatarRumania(includes Romania, '
+ 'Republic ofRwanda, Democratic Republic of theSambia, Republic ofSaint Kitts '
+ 'and Nevis Saint LuciaSaint Vincent & the GrenadinesSaudi Arabia(includes '
+ 'Saudi Arabia)(Palestine, State ofSeychellesSierra LeoneSingaporeSomaliaSouth '
+ 'AfricaSouth Georgia and South Sandwich IslandsSouth SudanSuisse, '
+ 'SwitzerlandTajikistanTaiwanTanzania, United Republic ofTogoTrinidad and '
+ 'TobagoTunisiaTurkeyTurkey, State ofTur')
+
+
+9: PPL-XL=1.428, PPL-XL-Lower=3.549, score=3.554, 
+
+('Course / Tuition\n'
+ '» Educational Institution\n'
+ '» University/College\n'
+ '» Country/Region Select a Country or Region Afghanistan Albania Algeria '
+ 'American Samoa Andorra Angola Anguilla Antarctica Antigua and Barbuda '
+ 'Argentina Armenia Aruba Australia Austria Azerbaijan Bahamas Bahrain '
+ 'Bangladesh Barbados Belarus Belgium Belize Benin Bermuda Bhutan Bolivia '
+ 'Bosnia and Herzegovina Botswana Bouvet Island Brazil British Indian Ocean '
+ 'Territory Brunei Darussalam Bulgaria Burkina Faso Burundi Cambodia Cameroon '
+ 'Canada Cape Verde Cayman Islands Central African Republic Chad Chile China '
+ 'Christmas Island Cocos (Keeling) Islands Colombia Comoros Congo Congo, the '
+ "Democratic Republic of the Cook Islands Costa Rica Cote d'Ivoire Croatia "
+ 'Cuba Cyprus Czech Republic Denmark Djibouti Dominica Dominican Republic '
+ 'Ecuador Egypt El Salvador Equatorial Guinea Eritrea Estonia Ethiopia '
+ 'Falkland Islands (Malvinas) Faroe Islands Fiji Finland France French Guiana '
+ 'French Polynesia French Southern Territories Gabon Gambia Georgia Germany '
+ 'Ghana Gibraltar Greece Greenland Grenada Guadeloupe Guam Guatemala Guernsey '
+ 'Guinea Guinea-Bissau Guyana Haiti Heard Island and Mcdonald Islands Holy See '
+ 'Honduras Hong Kong Hungary Iceland India Indonesia Iran, Islamic Republic of '
+ 'Iraq Ireland Isle of Man Israel Italy Jamaica Japan Jersey Jordan Kazakhstan '
+ "Kenya Kiribati Korea, Democratic People's Republic of Korea, Republic of "
+ 'Kuwait Kyr')
+
+
+10: PPL-XL=1.432, PPL-XL-Lower=3.479, score=3.471, 
+
+('Ukraine United Arab Emirates United States of America Uruguay USA Uzbekistan '
+ 'Vanuatu Venezuela Vietnam Virgin Islands (British) Virgin Islands (U.S.) '
+ 'Western Sahara Yemen Zambia Zimbabwe Andorra Angola Anguilla Antigua and '
+ 'Barbuda Argentina Armenia Aruba Australia Austria Azerbaijan Bosnia and '
+ 'Herzegovina Barbados Belarus Belgium Belize Benin Bermuda Bhutan British '
+ 'Virgin Islands Brunei Bulgaria Burkina Faso Burundi Cambodia Cameroon Canada '
+ 'Cape Verde Cayman Islands Central African Republic Chad Comoros Congo Congo, '
+ "Democratic Republic of the Cook Islands Costa Rica Cote d'Ivoire Croatia "
+ 'Cuba Cyprus Czech Republic Denmark Djibouti Dominica Dominican Republic East '
+ 'Timor Ecuador Egypt El Salvador Equatorial Guinea Eritrea Estonia Ethiopia '
+ 'Falkland Islands (Islas Malvinas) Fiji Finland France French Guiana French '
+ 'Polynesia Gabon Gambia Georgia Germany Ghana Gibraltar Greece Greenland '
+ 'Grenada Guadeloupe Guam Guatemala Guinea Guinea-Bissau Guyana Haiti Holy See '
+ '(Vatican City) Honduras Hong Kong Hungary Iceland India Indonesia Iraq '
+ 'Ireland Israel Italy Jamaica Japan Jordan Kazakstan Kenya Kiribati Korea, '
+ 'North Korea, South Kuwait Kyrgyzstan Laos Latvia Lebanon Lesotho Liberia '
+ 'Libya Liechtenstein Lithuania Luxembourg Macau Macedonia, The Former '
+ 'Yugoslav Republic of Madagascar Malawi Malaysia Maldives Mali Malta Marshall '
+ 'Islands Martinique')
+
+
+
+
+======== top sample by ratio of Zlib entropy and XL perplexity: ========
+1: PPL-XL=1.047, Zlib=662.000, score=14266.712, 
+
+('June 2016 May 2016 April 2016 March 2016 February 2016 January 2016 December '
+ '2015 November 2015 October 2015 September 2015 August 2015 July 2015 June '
+ '2015 May 2015 April 2015 March 2015 February 2015 January 2015 December 2014 '
+ 'November 2014 October 2014 September 2014 August 2014 July 2014 June 2014 '
+ 'May 2014 April 2014 March 2014 February 2014 January 2014 December 2013 '
+ 'November 2013 October 2013 September 2013 August 2013 July 2013 June 2013 '
+ 'May 2013 April 2013 March 2013 February 2013 January 2013 December 2012 '
+ 'November 2012 October 2012 September 2012 August 2012 July 2012 June 2012 '
+ 'May 2012 April 2012 March 2012 February 2012 January 2012 December 2011 '
+ 'November 2011 October 2011 September 2011 August 2011 July 2011 June 2011 '
+ "Select a category Agriculture Bihar Votes For Its (and India's) Future "
+ "BUDGET 2014 Budget 2015: Modi's Moment of Reckoning Budget 2016: The stories "
+ 'behind the numbers Chart of the Day Climate Change Cover Story Currency '
+ 'Chaos Development Education Elections 2014 Employment Fact Check Governance '
+ "Newsletter Health homepage video Hunger India's Great Challenge: Health & "
+ 'Sanitation IndiaSpend In The News IndiaSpend Interviews Industry '
+ 'Investigations Central State Latest Headlines Latest Reports Making Sense of '
+ "Breaking News Modi's Message: India's States Reply Modi's Report Card Mumbai "
+ 'Special Mumbai Special: The Revival Agenda Opinion – Videos Opinions '
+ "Pollution Poverty Prime Time: India's Grand Challenges Resources Central "
+ 'State Sectors Agriculture Defence Economy & Policy Education Health '
+ 'Infrastructure Snapshots')
+
+
+2: PPL-XL=1.088, Zlib=754.000, score=8975.434, 
+
+("Cook Islands Costa Rica Cote D'Ivoire Croatia Cuba Cyprus Czech Republic "
+ 'Denmark Djibouti Dominica Dominican Republic East Timor Ecuador Egypt El '
+ 'Salvador Equatorial Guinea Eritrea Estonia Ethiopia Falkland Islands '
+ '(Malvinas) Faroe Islands Fiji Finland France French Guiana French Polynesia '
+ 'French Southern Territories Gabon Gambia Georgia Germany Ghana Gibraltar '
+ 'Greece Greenland Grenada Guadeloupe Guam Guatemala Guernsey Guinea '
+ 'Guinea-Bissau Guyana Haiti Heard Island and McDonald Islands Holy See '
+ '(Vatican City State) Honduras Hong Kong Hungary Iceland India Indonesia '
+ 'Iran, Islamic Republic of Iraq Ireland Isle of Man Israel Italy Jamaica '
+ "Japan Jersey Jordan Kazakhstan Kenya Kiribati Korea, Democratic People's "
+ "Republic of Korea, Republic of Kuwait Kyrgyzstan Lao People's Democratic "
+ 'Republic Latvia Lebanon Lesotho Liberia Libyan Arab Jamahiriya Liechtenstein '
+ 'Lithuania Luxembourg Macao Macedonia, the former Yugoslav Republic of '
+ 'Madagascar Malawi Malaysia Maldives Mali Malta Marshall Islands Martinique '
+ 'Mauritania Mauritius Mayotte Mexico Micronesia, Federated States of Moldova, '
+ 'Republic of Monaco Mongolia Montenegro Montserrat Morocco Mozambique Myanmar '
+ 'Namibia Nauru Nepal Netherlands Netherlands Antilles New Caledonia New '
+ 'Zealand Nicaragua Niger Nigeria Niue Norfolk Island Northern Mariana Islands '
+ 'Norway Oman Pakistan Palau Palestinian Territory, Occupied Panama Papua New')
+
+
+3: PPL-XL=1.267, Zlib=797.000, score=3369.139, 
+
+('Bahrain Bangladesh Barbados Beirut Belarus Belgium Benin Bermuda Bhutan '
+ 'Bolivia Bosnia and Herzegovina Botswana Brazil Brunei Bulgaria Burkina Faso '
+ 'Burundi Cambodia Cameroon Cape Verde Cayman Islands Central African Republic '
+ 'Chad Chile China Christmas Island Cocos (Keeling) Islands Colombia Comoros '
+ 'Congo, Democratic Republic of the Congo, Republic of the Costa Rica Côte '
+ "d'Ivoire Croatia Cuba Curaçao Cyprus Czech Republic Denmark Djibouti "
+ 'Dominica Dominican Republic East Timor Ecuador Egypt El Salvador Equatorial '
+ 'Guinea Eritrea Estonia Ethiopia Faroe Islands Fiji Finland France French '
+ 'Polynesia Gabon Gambia Georgia Germany Ghana Gibraltar Greece Greenland '
+ 'Grenada Guadeloupe Guam Guatemala Guinea Guinea-Bissau Guyana Haiti Holy See '
+ '(Vatican City State) Honduras Hong Kong Hungary Iceland India Indonesia Iran '
+ 'Iraq Ireland Israel Italy Jamaica Japan Jordan Kazakhstan Kenya Kiribati '
+ 'North Korea South Kuwait Kyrgyzstan Laos Latvia Lebanon Lesotho Liberia '
+ 'Libya Liechtenstein Lithuania Luxembourg Macedonia Madagascar Malawi '
+ 'Malaysia Maldives Mali Malta Marshall Islands Mauritania Mauritius Mexico '
+ 'Micronesia Moldova Monaco Mongolia Montenegro Morocco Mozambique Myanmar '
+ 'Namibia Nauru Nepal Netherlands New Zealand Nicaragua Niger Nigeria Northern '
+ 'Mariana Islands Norway Oman Pakistan Palau Palestine, State of Panama Papua '
+ 'New Guinea Paraguay Peru Philippines Pitcairn Poland Portugal')
+
+
+4: PPL-XL=1.233, Zlib=478.000, score=2282.459, 
+
+('Portugal Puerto Rico Qatar Reunion Romania Russian Federation Rwanda Saint '
+ 'Kitts-Nevis Saint Lucia Saint Pierre and Miquelon Saint Vincent and the '
+ 'Grenadines Samoa Saudi Arabia Senegal Serbia Seychelles Sierra Leone '
+ 'Singapore Slovakia Slovenia Solomon Islands Somalia South Africa South '
+ 'Georgia and the South Sandwich Islands Spain Sri Lanka Sudan Suriname '
+ 'Svalbard and Jan Mayen Swaziland Sweden Switzerland Syrian Arab Republic '
+ 'Taiwan Tajikistan Tanzania, United Republic of Thailand Timor-Leste Togo '
+ 'Tokelau Tonga Trinidad and Tobago Tunisia Turkey Turkmenistan Turks and '
+ 'Caicos Islands Tuvalu Uganda Ukraine United Arab Emirates United Kingdom '
+ 'United States United States Minor Outlying Islands Uruguay Uzbekistan '
+ 'Vanuatu Venezuela Viet Nam Virgin Islands, British Virgin Islands, U.S. '
+ 'Wallis and Futuna Western Sahara Yemen Zambia Zimbabwe')
+
+
+5: PPL-XL=1.104, Zlib=214.000, score=2170.344, 
+
+('7579 7580 7581 7582 7583 7584 7585 7586 7587 7588 7589 7590 7591 7592 7593 '
+ '7594 7595 7596 7597 7598 7599 7600 7601 7602 7603 7604 7605 7606 7607 7608 '
+ '7609 7610 7611 7612 7613 7614 7615 7616 7617 7618 7619 7620 7621 7622 7623 '
+ '7624 7625 7626 7627 7628 7629 7630 7631 7632 7633 7634 7635 7636 7637 7638 '
+ '7639 7640 7641 7642 7643 7644 7645 7646 7647 7648 7649 7650 7651 7652 7653 '
+ '7654 7655 7656 7657 7658 7659 7660 7661 7662 7663 7664 7665 7666 7667 7668 '
+ '7669 7670 7671 7672 7673 7674 7675 7676 7677 7678 7679 7680 7681 7682 7683 '
+ '7684 7685 7686 7687 7688 7689 7690 7691 7692 7693 7694 7695 7696 7697 7698 '
+ '7699 7700 7701 7702 7703 7704 7705 7706 7707 7708 7709 7710 7711')
+
+
+6: PPL-XL=1.462, Zlib=819.000, score=2155.229, 
+
+('Islands Central African Republic Chad Chile China Hong Kong Georgia Germany '
+ 'Ghana Gibraltar Greece Greenland Grenada India Guatemala Guinea Guyana Haiti '
+ 'Hawaii Honduras Hungary Indonesia Ireland Israel Italy Ivory Coast Japan '
+ 'Jordan Kazakhstan Kenya Kosovo Kuwait Kyrgyzstan Laos Latvia Lebanon Lesotho '
+ 'Liberia Libya Liechtenstein Lithuania Luxembourg Macao Macedonia Madagascar '
+ 'Malawi Malaysia Maldives Mali Malta Marshall Islands Mexico Micronesia '
+ 'Moldova Monaco Mongolia Montenegro Morocco Mozambique Myanmar Namibia Nauru '
+ 'Nepal Netherlands New Zealand Nicaragua Niger Nigeria Norway Oman Pakistan '
+ 'Palau Panama Papua New Guinea Philippines Poland Portugal Qatar Romania '
+ 'Russia Rwanda Saint Kitts and Nevis Saint Lucia Saint Vincent and the '
+ 'Grenadines Samoa San Marino Sao Tome and Principe Saudi Arabia Scotland '
+ 'Senegal Serbia and Montenegro Seychelles Sierra Leone Singapore Slovakia '
+ 'Slovenia Slovak Republic Solomon Islands Somalia South Africa Spain Sri '
+ 'Lanka Sudan Suriname Swaziland Sweden Switzerland Syria Tahiti Taiwan '
+ 'Tajikistan Tanzania Thailand The Bahamas The Gambia Tibet Togo Tonga '
+ 'Trinidad and Tobago Tunisia Turkey Turks and Caicos Islands Tuvalu Uganda '
+ 'Ukraine United Arab Emirates United Kingdom United States of America Uruguay '
+ 'Uzbekistan Vanuatu Vatican City Venezuela Vietnam Virgin Islands Western '
+ 'Sahara Yemen Yugoslavia Zambia Zimbabwe Last name:\n'
+ '\n'
+ '\n'
+ 'Division:\n'
+ '\n'
+ '\n'
+ 'City:\n'
+ '\n'
+ 'Products:\n'
+ '\n'
+ 'Central Asia & Caucasus Business Weekly\n'
+ '\n'
+ 'Central Asia')
+
+
+7: PPL-XL=1.432, Zlib=766.000, score=2132.535, 
+
+('Ukraine United Arab Emirates United States of America Uruguay USA Uzbekistan '
+ 'Vanuatu Venezuela Vietnam Virgin Islands (British) Virgin Islands (U.S.) '
+ 'Western Sahara Yemen Zambia Zimbabwe Andorra Angola Anguilla Antigua and '
+ 'Barbuda Argentina Armenia Aruba Australia Austria Azerbaijan Bosnia and '
+ 'Herzegovina Barbados Belarus Belgium Belize Benin Bermuda Bhutan British '
+ 'Virgin Islands Brunei Bulgaria Burkina Faso Burundi Cambodia Cameroon Canada '
+ 'Cape Verde Cayman Islands Central African Republic Chad Comoros Congo Congo, '
+ "Democratic Republic of the Cook Islands Costa Rica Cote d'Ivoire Croatia "
+ 'Cuba Cyprus Czech Republic Denmark Djibouti Dominica Dominican Republic East '
+ 'Timor Ecuador Egypt El Salvador Equatorial Guinea Eritrea Estonia Ethiopia '
+ 'Falkland Islands (Islas Malvinas) Fiji Finland France French Guiana French '
+ 'Polynesia Gabon Gambia Georgia Germany Ghana Gibraltar Greece Greenland '
+ 'Grenada Guadeloupe Guam Guatemala Guinea Guinea-Bissau Guyana Haiti Holy See '
+ '(Vatican City) Honduras Hong Kong Hungary Iceland India Indonesia Iraq '
+ 'Ireland Israel Italy Jamaica Japan Jordan Kazakstan Kenya Kiribati Korea, '
+ 'North Korea, South Kuwait Kyrgyzstan Laos Latvia Lebanon Lesotho Liberia '
+ 'Libya Liechtenstein Lithuania Luxembourg Macau Macedonia, The Former '
+ 'Yugoslav Republic of Madagascar Malawi Malaysia Maldives Mali Malta Marshall '
+ 'Islands Martinique')
+
+
+8: PPL-XL=1.428, Zlib=758.000, score=2127.041, 
+
+('Course / Tuition\n'
+ '» Educational Institution\n'
+ '» University/College\n'
+ '» Country/Region Select a Country or Region Afghanistan Albania Algeria '
+ 'American Samoa Andorra Angola Anguilla Antarctica Antigua and Barbuda '
+ 'Argentina Armenia Aruba Australia Austria Azerbaijan Bahamas Bahrain '
+ 'Bangladesh Barbados Belarus Belgium Belize Benin Bermuda Bhutan Bolivia '
+ 'Bosnia and Herzegovina Botswana Bouvet Island Brazil British Indian Ocean '
+ 'Territory Brunei Darussalam Bulgaria Burkina Faso Burundi Cambodia Cameroon '
+ 'Canada Cape Verde Cayman Islands Central African Republic Chad Chile China '
+ 'Christmas Island Cocos (Keeling) Islands Colombia Comoros Congo Congo, the '
+ "Democratic Republic of the Cook Islands Costa Rica Cote d'Ivoire Croatia "
+ 'Cuba Cyprus Czech Republic Denmark Djibouti Dominica Dominican Republic '
+ 'Ecuador Egypt El Salvador Equatorial Guinea Eritrea Estonia Ethiopia '
+ 'Falkland Islands (Malvinas) Faroe Islands Fiji Finland France French Guiana '
+ 'French Polynesia French Southern Territories Gabon Gambia Georgia Germany '
+ 'Ghana Gibraltar Greece Greenland Grenada Guadeloupe Guam Guatemala Guernsey '
+ 'Guinea Guinea-Bissau Guyana Haiti Heard Island and Mcdonald Islands Holy See '
+ 'Honduras Hong Kong Hungary Iceland India Indonesia Iran, Islamic Republic of '
+ 'Iraq Ireland Isle of Man Israel Italy Jamaica Japan Jersey Jordan Kazakhstan '
+ "Kenya Kiribati Korea, Democratic People's Republic of Korea, Republic of "
+ 'Kuwait Kyr')
+
+
+9: PPL-XL=1.426, Zlib=737.000, score=2077.254, 
+
+('WI Indianapolis, IN Nashville, TN Orlando, FL Philadelphia, PA Phoenix, AZ '
+ 'Portland, ME Portland, OR Providence, RI Raleigh-Durham, NC Raleigh-Orange, '
+ 'NC Richmond, VA Rochester, NY Sacramento, CA Salt Lake City, UT San Antonio, '
+ 'TX San Diego, CA San Francisco, CA San Jose, CA Seattle, WA Washington, DC '
+ 'Wilmington, DE\n'
+ '\n'
+ 'Country: US - Select -- Afghanistan Albania Algeria American Samoa Andorra '
+ 'Angola Anguilla Antarctica Antigua and Barbuda Argentina Armenia Aruba '
+ 'Australia Austria Azerbaijan Bahamas Bahrain Bangladesh Barbados Belarus '
+ 'Belgium Belize Benin Bermuda Bhutan Bolivia Bosnia and Herzegovina Botswana '
+ 'Bouvet Island Brazil British Indian Ocean Territory British Virgin Islands '
+ 'Brunei Bulgaria Burkina Faso Burundi Cambodia Cameroon Canada Cape Verde '
+ 'Cayman Islands Central African Republic Chad Chile China Christmas Island '
+ 'Cocos [Keeling] Islands Colombia Comoros Congo - Brazzaville Congo - '
+ 'Kinshasa Cook Islands Costa Rica Croatia Cuba Cyprus Czech Republic Denmark '
+ 'Djibouti Dominica Dominican Republic East Timor Ecuador Egypt El Salvador '
+ 'Equatorial Guinea Eritrea Estonia Ethiopia Falkland Islands Faroe Islands '
+ 'Fiji Finland France French Guiana French Polynesia French Southern '
+ 'Territories Gabon Gambia Georgia Germany Ghana Gibraltar Greece Greenland '
+ 'Grenada Guadeloupe Guam Guatemala Guinea Guinea-Bissau')
+
+
+10: PPL-XL=1.448, Zlib=671.000, score=1811.348, 
+
+('Peru Philippines Pitcairn Poland Portugal Puerto Rico Qatar Republic of '
+ 'Korea Republic of Moldova Republic of Montenegro Republic of Peru Republic '
+ 'of Poland Republic of Puerto Rico Republic of Romania Romania Russian '
+ 'Federation Serbia Serbia and Montenegro Slovakia Slovenia South Africa South '
+ 'Korea South Sudan Spain Sri Lanka St. Barthelemy St. Helena St. Martin '
+ '(French part) St. Pierre and Miquelon St. Vincent and the Grenadines Sudan '
+ 'Suriname Svalbard and Jan Mayen Islands Swaziland Sweden Switzerland Syrian '
+ 'Arab Republic Taiwan Tajikistan Tanzania Thailand Togo Tokelau Tonga '
+ 'Trinidad and Tobago Tunisia Turkey Turkmenistan Turks and Caicos Islands '
+ 'Tuvalu U.S. Minor Outlying Islands U.S. Virgin Islands Uganda Ukraine United '
+ 'Arab Emirates United Kingdom United States Unknown or Invalid Region Unknown '
+ 'or Invalid State / Province United States Unknown or Invalid Zip / Postal '
+ 'Code Afghanistan Albania Algeria American Samoa Andorra Angola Anguilla '
+ 'Antarctica Antigua and Barbuda Argentina Armenia Aruba Australia Austria '
+ 'Azerbaijan Bahamas Bahrain Bangladesh Barbados Belarus Belgium Belize Benin '
+ 'Bermuda Bhutan Bolivia, Plurinational State of Bonaire, Sint Eustatius and '
+ 'Saba Bosnia and Herzegovina Botswana Bouvet Island Brazil British Indian '
+ 'Ocean Territory Brunei Darussalam Bulgaria Burkina Faso Bur')
+
+

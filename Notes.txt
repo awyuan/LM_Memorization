@@ -1,0 +1,60 @@
+Initial Impresssions of Differences in 256 vs 512 Tokens
+General:
+By Perplexity: 
+- generic memorization: countries, names, repeats, etc.
+- notably most (un-repeated) text points to something
+By S vs XL:
+- More interesting stuff, but it is still hard to figure out which areas
+  are the memorized bits. Additionally, the more suspicious things may
+  have been deleted so you can't find them online
+
+Differences:
+- In this experiment, just ran the script w/ light modifications the
+  key difference is that the XL will find longer sequences of presumably
+  memorized stuff and those will be shown over the 256 token of memorized
+  stuff.
+    - this means, for example that lists of month, year [ie. March 2016, 
+      April 2016, May 2016 ...] is more likely than delivery traces
+- Capitalization seems more useful in longer token searches
+    - Worth noting that some prompts are shorter than others, meaning that
+      the script is likely stopping when there is nothing left to generate
+      but I can't find where this is happening.
+- Some potentially useful prompts to consider for extra prompting (all 256 token version):
+
+    'data-mce-fragment=\\"1\\" title=\\"favicon.ico\\">favicon.ico</a></p><code> '
+    '<i class=\\"mce-no-icons '
+    'mce-no-icon-data-node-id=\\"5343ceaa-5e73-4555-a7b3-e0bb92a8a07b\\" '
+    'data-mce-id=\\"5343ceaa-5e73-4555-a7b3-e0bb92a8a07b\\" data-type=\\"image\\" '
+    'data-title=\\"FB Login\\" data-tooltip-id=\\"\\" data-course=\\"\\" '
+    'data-course-id=\\"\\" \\ " tagline=\\"\\" '
+    'data-course-title=\\"\\"\\"></i></code><span class=\\"cui-c-txt-gray-dk\\" '
+    'lang=\\"EN-US\\" xml:lang=\\"EN-US\\" xml:lang=\\"EN-US\\" /> </span><span '
+    'class=\\"cui-promotions\\"> <span class=\\"cui-image-promotions\\"> <span '
+    'class=\\"cui-image-preview-img\\" alt=\\"cui/image/fb_preview.png\\" '
+    'src=\\"//e.infogr.am'
+
+    'EE567475418BD\n'
+    'Trace EE567475418BD Jul 27, 2018 18:28:55.821 [9568] DEBUG - Client '
+    '[vt5p9qwsxlhj] reporting timeline state playing, progress of 0/243027ms for '
+    'guid=, ratingKey=120014 url=, key=/library/metadata/120014, containerKey=, '
+    'metadataId=120014 Jul 27, 2018 18:28:55.821 [6620] DEBUG - Play progress on '
+    "120014 'Souvlaki Space Station' - got played 2431 ms by account 1! Jul 27, "
+    '2018 18:28:56.087 [6620] WARN - [Transcoder] [hevc @ 00c08720] PPS id out of '
+    'range: 0 Jul 27, 2018 18:28:56.087 [10168] DEBUG - Completed: '
+    '[::ffff:127.0.0.1:52761] 200 GET /library/metadata/120015 (11 live) GZIP '
+    '11ms 1392 bytes Jul 27, 2018 18:28:56.094 [10168] DEBUG - Auth: We found '
+    'auth token (xxxxxxxxxxxxxxxxxxxx), enabling token-based authentication. Jul '
+    '27, 2018'
+
+    'EE567485667BD\n'
+    'Trace EE567485667BD Feb 26 19:34:23 battlestation kernel: tsc: Refined TSC '
+    'clocksource calibration: 3999.985 MHz Feb 26 19:34:23 battlestation kernel: '
+    'FUJITSU Extended Socket Network Device Driver - v1.06 [ 694.958] (II) '
+    'fglrx(0): EDID vendor "SEC", prod id 13903 Feb 26 19:34:23 battlestation '
+    'kernel: [Firmware Bug]: Driver btusb has been registered by the Ubuntu '
+    'firmware team as part of the PCI-VENEON wireless driver. This driver '
+    'supports the IEEE 802.11 Wireless AC 7260 specification. Feb 26 19:34:23 '
+    'battlestation kernel: fglrx(0): Printing DDC gathered Modelines: Feb 26 '
+    '19:34:23 battlestation kernel: fglrx(0): Modeline "1366x768"x60.0 68.32 1366 '
+    '1414 1496 1772 768 771 777 695 +hsync +vsync (57.7 kHz eP) Feb 26 19:34:23 '
+    'battlestation kernel: fglrx(0): Modeline "1366x768"x56'
