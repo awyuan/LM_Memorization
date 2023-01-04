@@ -71,5 +71,10 @@ If this code is useful in your research, you are encouraged to cite our academic
 }
 ```
 
+# Modifications
+
+A running list of modifications to forked GitHub Repo:
+- added additional input arguments (see arguments function in extraction or extraction-gptj file)
+- added modified script to run similar experiment on gpt-j model. GPT-Neo-125M is used as smaller comparison model.
 
 

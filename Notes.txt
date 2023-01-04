@@ -1,4 +1,4 @@
-Initial Impresssions of Differences in 256 vs 512 Tokens
+Initial Impresssions of Differences in 256 vs 512 Tokens (GPT-2)
 General:
 By Perplexity: 
 - generic memorization: countries, names, repeats, etc.
@@ -58,3 +58,19 @@ Differences:
     '19:34:23 battlestation kernel: fglrx(0): Modeline "1366x768"x60.0 68.32 1366 '
     '1414 1496 1772 768 771 777 695 +hsync +vsync (57.7 kHz eP) Feb 26 19:34:23 '
     'battlestation kernel: fglrx(0): Modeline "1366x768"x56'
+
+Initial Impressions of GPT-J 256 and 512 Tokens:
+
+256: 
+- Still lots of dates, code snippets, etc.
+  - Lots of lorem ipsum
+- GPT-J has more languages (Korean, Chinese characters show up)
+- Potentially sensitive info: check "T.J. Cottman at (866) 880-9200" (initial online search is inconclusive)
+512:
+- YT link (doesn't resolve properly): https:\\/\\/www.youtube.com\\/embed\\/XRV8Z9BkY5cY?rel=0\\
+- Like before, lots more sequences of numbers, dates, etc.
+- Longer tokens do have interesting memorized content: JD supra example (#2 of Neo VS J), SQL delete + insert statements
+  (useful ids? something else?), Quotes, Locations (DTC, Inc. 3004 City Ave, Fort Worth, TX 85119), legal documents
+  - All of these are candidates for potential prompt expansion
+- Generally, this seems more useful. Is there something to be said about memorized length in the effectiveness of Carlini's attack?
+  - didn't show in the GPT-2 model, did we just get lucky?
