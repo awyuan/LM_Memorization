@@ -74,3 +74,7 @@ Initial Impressions of GPT-J 256 and 512 Tokens:
   - All of these are candidates for potential prompt expansion
 - Generally, this seems more useful. Is there something to be said about memorized length in the effectiveness of Carlini's attack?
   - didn't show in the GPT-2 model, did we just get lucky?
+
+Notes after searching for various prompts in Pile:
+- Sensitive stuff is hard to find (maybe the way I performed the search needs to be updated)
+- This process likely needs to be refined, discuss in next meeting.
